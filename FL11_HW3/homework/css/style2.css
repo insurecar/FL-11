@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #21232e; }
+
+.header {
+  background: url(../img/m-h-night.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 700px;
+  background-position: top;
+  border-bottom-right-radius: 50%; }
+
+.header-wrap {
+  width: 80%;
+  margin: auto; }
+  .header-wrap .landing-logo {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    position: relative; }
+    .header-wrap .landing-logo p {
+      display: flex;
+      flex-direction: column;
+      margin: 15px;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 25px;
+      font-family: "Source Sans Pro", sans-serif;
+      color: white; }
+      .header-wrap .landing-logo p span {
+        text-transform: lowercase;
+        font-size: 10px;
+        font-weight: normal;
+        text-align: center; }
+  .header-wrap .header_button, .header-wrap .section_banner .section_banner_button, .section_banner .header-wrap .section_banner_button {
+    width: 100px;
+    height: 40px;
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: #e3ac00;
+    position: absolute;
+    display: block;
+    color: #fff; }
+
+.header_heading {
+  width: 400px;
+  font-size: 3rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  z-index: 1; }
+
+.header_heading::before {
+  content: "";
+  background-color: #ff4e33;
+  position: absolute;
+  z-index: -1;
+  height: 10px;
+  width: 200px;
+  top: 100px; }
+
+.header_text {
+  width: 70%;
+  font-family: "Hind", sans-serif;
+  color: white;
+  white-space: pre-line; }
+
+main.section .section_text {
+  text-align: center;
+  font-family: "Hind", sans-serif;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  width: 200px;
+  margin: 0 auto; }
+main.section .section_text::before {
+  content: "";
+  background-color: #ff4e33;
+  position: absolute;
+  z-index: -1;
+  height: 10px;
+  z-index: -1;
+  width: 77px;
+  top: 11px;
+  left: 105px;
+  position: absolute; }
+main.section .section_card_wrap {
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+  margin-left: 80px; }
+  main.section .section_card_wrap .section_card {
+    padding-top: 20px;
+    width: 250px;
+    text-align: center;
+    background: #3b3f50;
+    border-radius: 10px;
+    height: 300px; }
+    main.section .section_card_wrap .section_card img {
+      border-radius: 5px;
+      border: 1px solid #3b3f50; }
+    main.section .section_card_wrap .section_card .section_card_text {
+      font-size: 10px;
+      font-family: "Source Sans Pro", sans-serif;
+      color: #fff;
+      padding: 10px; }
+    main.section .section_card_wrap .section_card .section_card_heading {
+      color: #fff;
+      z-index: 1;
+      position: relative; }
+    main.section .section_card_wrap .section_card .section_card_heading::before {
+      content: "";
+      background-color: #ff4e33;
+      position: absolute;
+      z-index: -1;
+      height: 10px;
+      z-index: -1;
+      width: 30px;
+      position: absolute;
+      top: 8px;
+      width: 110px; }
+
+.section_banner {
+  width: 620px;
+  height: 70px;
+  background: red;
+  position: relative;
+  margin-left: 200px;
+  color: white;
+  border-radius: 5px;
+  background: linear-gradient(to left, #932e51, #d89b0b); }
+
+.section_banner_button {
+  float: right;
+  margin-top: -50px;
+  margin-right: 40px;
+  background-color: #e3ac00;
+  width: 100px;
+  height: 40px;
+  color: #fff; }
+
+.section_banner_heading {
+  font-style: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  margin-right: 30px;
+  width: 50%;
+  position: relative;
+  z-index: 1;
+  color: white; }
+
+.section_banner_heading::before {
+  content: "";
+  background-color: #ff4e33;
+  position: absolute;
+  z-index: -1;
+  height: 10px;
+  position: absolute;
+  width: 40px;
+  z-index: -1;
+  top: 11px;
+  left: 75px; }
+
+.footer {
+  padding: 135px 0 45px 0;
+  background-color: #3b3f50;
+  position: relative;
+  z-index: -1;
+  margin-top: -30px;
+  height: 150px; }
+
+.footer-wrap {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0; }
+
+.footer_logo, .footer_text {
+  color: white; }
+
+.footer_text {
+  width: 25%;
+  font-size: 17px;
+  letter-spacing: .013em;
+  line-height: 1.5;
+  margin-right: 5px; }
+
+.footer-cr {
+  color: white; }

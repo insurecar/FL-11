@@ -1,0 +1,12 @@
+$font:(fonts:("Source Sans Pro", sans-serif), fonts-second:("Hind", sans-serif), fonts-third:("Fresca", sans-serif));
+$color:(color: rgb(61, 61, 61),
+ underline:  rgb(81, 197, 233),
+  color-text-button: (#fff),
+  color-bg-button: #699909,
+  color-bg-card:rgb(33, 35, 46),
+  color-text-card: #fff,
+  color-grad:(linear-gradient(to left, rgb(45, 90, 215), rgb(150, 230 ,5))),
+  color-bg-body:(#fff),
+  color-bg-footer:(#21232e)
+  );
+$bg-image: url(../img/m-h-day.jpg);

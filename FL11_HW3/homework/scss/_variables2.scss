@@ -1,0 +1,12 @@
+$font:(fonts:("Source Sans Pro", sans-serif), fonts-second:("Hind", sans-serif), fonts-third:("Fresca", sans-serif));
+$color:(color: rgb(255, 255, 255),
+ underline:  #ff4e33,
+  color-text-button: (#fff),
+  color-bg-button:#e3ac00,
+  color-bg-card:#3b3f50,
+  color-text-card: #fff,
+  color-grad:(linear-gradient(to left, #932e51, #d89b0b)),
+  color-bg-body:(rgb(33, 35, 46)),
+  color-bg-footer:(#3b3f50)
+  );
+$bg-image: url(../img/m-h-night.jpg);
